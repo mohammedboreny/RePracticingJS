@@ -147,18 +147,18 @@ let newSeries = [
 // });
 // console.log(q10);
 
-// // Q11
-// let arr2=["mohammed",'Array','Somthing','JavaScriptCode']
-// let q11 = arr2.reduce((accum, array) => {
+// Q11
+let arr2=["mohammed",'Array','Somthing','JavaScriptCode']
+let q11 = arr2.reduce((accum, array) => {
     
-//     if (array.length > accum) {
-//        return accum = array.length;
-//     }
-//     else
-//     return accum
-// }, 0);
+    if (array.length > accum.length) {
+        return accum = array;
+    }
+    else
+        return accum;
+}, []);
 
-// console.log(q11);
+console.log(q11);
 
 
 // // q12
