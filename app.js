@@ -139,10 +139,10 @@ let newSeries = [
 // console.log(q9);
 
 
-// // Q10
+// Q10
 // let q10 = newSeries.filter((value, index, array) => {
-//     if (value < 5) {
-//         return index;
+//     if (value['rating'] < 5) {
+//         return value;
 //     };
 // });
 // console.log(q10);
