@@ -124,16 +124,16 @@ let newSeries = [
     }
 ];
 
-let q8=newSeries.forEach((value, index, array) => {
-    console.log( value["id"] + "   " + value["title"]);
-})
+// let q8=newSeries.forEach((value, index, array) => {
+//     console.log( value["id"] + "   " + value["title"]);
+// })
 
 
 
 // // Q9
 
 // let q9 =newSeries.map((value, index, array) => {
-//     return array["id"] + array["title"];
+//     return  value["id"] + "   " + value["title"];
 // })
 
 // console.log(q9);
