@@ -41,34 +41,48 @@
 
 // // Q4
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8];
-i = arr.length;
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// i = arr.length;
 let contain = [];
-function Recurs(x) {
-    if (i==0) {
-        return false;
-    }
-    i--;
-    contain.push(x[i] % 2 === 0 ? 'odd': 'even' );
-    console.log(contain);
-    return (Recurs(x));
-}
+// function Recurs(x) {
+//     if (i==0) {
+//         return false;
+//     }
+//     i--;
+//     contain.push(x[i] % 2 === 0 ? 'odd': 'even' );
+//     console.log(contain);
+//     return (Recurs(x));
+// }
 
 
-Recurs(arr);
+// Recurs(arr);
 
 
 // // Q5
+// contain = [];
+// function charSwap(array,ch1,ch2) {
+//     for (let index = 0; index < array.length; index++) {
+//         if (array[index] === ch1) {
+//             contain.push(ch2)
+    
+//         }
+//         else if (array[index] === ch2) {
+//             contain.push(ch1)
+//         }
+//         else
+//             contain.push(array[index]);
+//     }
+//     return contain;
+// }
 
+// console.log(charSwap( "aaddeee", "a", "d"));
 
-
-
-// // Q6
-// arr =["Rawan", "Jafar", "Muhammad","Muhammad", "Esraa", "Dareen"];
-// let printContent = arr.forEach((value) => {
-//     return value;
+// Q6 && Q7
+// arr = ["Rawan", "Jafar", "Muhammad", "Muhammad", "Esraa", "Dareen"];
+// let printContent = arr.forEach((value,index) => {
+//     console.log(value);
 // });
-// console.log(printContent);
+
 
 
 
